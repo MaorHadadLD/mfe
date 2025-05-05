@@ -5,6 +5,7 @@ import { StylesProvider, createGenerateClassName } from '@material-ui/core/style
 import MarketingApp from '../components/MarketingApp';
 import Header from '../components/Header';
 
+// Generate a unique class name for each component to avoid conflicts
 const generateClassName = createGenerateClassName({
     productionPrefix: 'con',
 });
