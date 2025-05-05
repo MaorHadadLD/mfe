@@ -7,7 +7,7 @@ import Header from '../components/Header';
 
 // Generate a unique class name for each component to avoid conflicts
 const generateClassName = createGenerateClassName({
-    productionPrefix: 'con',
+    productionPrefix: 'co',
 });
 
 export default () => {
