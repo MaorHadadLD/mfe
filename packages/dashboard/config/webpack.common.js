@@ -22,7 +22,7 @@ module.exports = {
       },
       {
         test: /\.scss|\.css$/,
-        use: ['vue-style-loader', 'styl-loader', 'css-loader', 'sass-loader']
+        use: ['vue-style-loader', 'style-loader', 'css-loader', 'sass-loader']
       },
       {
         test: /\.m?js$/,
@@ -37,5 +37,5 @@ module.exports = {
       },
     ],
   },
-  pkugins: [new VueLoaderPlugin()],
+  plugins: [new VueLoaderPlugin()],
 };
