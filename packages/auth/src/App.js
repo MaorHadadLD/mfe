@@ -10,6 +10,7 @@ const generateClassName = createGenerateClassName({
     productionPrefix: 'au',
 });
 
+// Export the App component as a default export
 export default ({ history, onSignIn }) => {
     return <div>
         <StylesProvider generateClassName={generateClassName}>
