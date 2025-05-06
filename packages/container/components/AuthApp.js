@@ -16,6 +16,9 @@ export default () => {
           history.push(nextPathname);
         }
       },
+      onSignIn: () => {
+        console.log("User signed in from container");
+      }
     });
 
     history.listen(onParentNavigate);
