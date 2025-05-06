@@ -11,7 +11,7 @@ const mount = (el) => {
 // call mount immediately
 if (process.env.NODE_ENV === 'development') {
   const devRoot = document.querySelector('#_dashboard-dev-root');
-
+  // We are in development, and we should mount the app
   if (devRoot) {
     mount(devRoot);
   }
